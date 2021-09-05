@@ -15,7 +15,7 @@ public class Coupon {
 	private Long id;
 	private String code;
 	private BigDecimal discount;
-	private String exeDate;
+	private String expDate;
 
 	public Long getId() {
 		return id;
@@ -41,12 +41,12 @@ public class Coupon {
 		this.discount = discount;
 	}
 
-	public String getExeDate() {
-		return exeDate;
+	public String getExpDate() {
+		return expDate;
 	}
 
-	public void setExeDate(String exeDate) {
-		this.exeDate = exeDate;
+	public void setExpDate(String expDate) {
+		this.expDate = expDate;
 	}
 
 }
